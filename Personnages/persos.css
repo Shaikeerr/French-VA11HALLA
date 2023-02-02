@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'CyberpunkWaifus';
+    src: url('../Font/CyberpunkWaifus.eot');
+    src: url('../Font/CyberpunkWaifus.eot?#iefix') format('embedded-opentype'),
+         url('../Font/CyberpunkWaifus.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: 'VA11HALLA6PX';
+  src: url('../Font/va-11-hall-a-6px.eot');
+  src: url('../Font/va-11-hall-a-6px.eot?#iefix') format('embedded-opentype'),
+        url('../Font/va-11-hall-a-6px.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  #corps{
+    background-image: url('Textures Persos/bg_persos.png');
+    background-size: cover;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#Gif {
+    position: absolute;
+    top: 13.7%;
+    left: 37.2%;
+    width: 235.2px;
+    height: 100.2px;
+}
+
+#Personnages {
+  position: absolute;
+  top: 17.8%;
+  left: 15%;
+  transition: all 1s;
+}
+
+.Choix_perso {
+  text-decoration: none;
+  background:none; border:none; 
+  position: absolute;
+  font-family: 'CyberpunkWaifus';
+  font-size: 36px;
+  color: rgb(180, 180, 180);
+  transition: all 1s;
+}
+
+.Choix_perso:hover {
+  color: rgb(255, 0, 140);
+  transition: all 1s;
+}
+
+#bouton_main{
+  position:absolute;
+  width: 5.5%;
+  height: 5%;
+  top:17%;
+  left: 58%;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+}
+
+#Alma {
+  top: 15%;
+  left: 71.5%;
+}
+
+#Anna {
+  top: 15%;
+  left: 86%;
+}
+
+#Art {
+  top: 22%;
+  left: 71.5%;
+}
+
+#Betty {
+  top: 22%;
+  left: 86%;
+}
+
+#Deal {
+  top: 29%;
+  left: 86%;
+}
+
+#Dana {
+  top: 29%;
+  left: 71.5%;
+}
+
+#Dorothy {
+  top: 36%;
+  left: 86%;
+}
+
+#Donovan {
+  top: 36%;
+  left: 71.5%;
+}
+
+#Gillian {
+  top: 43%;
+  left: 86%;
+}
+
+#Gabi {
+  top: 43%;
+  left: 71.5%;
+}
+
+#Ingram {
+  top: 50%;
+  left: 71.5%;
+}
+
+#Jamie {
+  top: 50%;
+  left: 86%;
+}
+
+#Jill {
+  top: 57%;
+  left: 71.5%;
+}
+
+#Nicole {
+  top: 57%;
+  left: 86%;
+}
+
+#Sei {
+  top: 64%;
+  left: 71.5%;
+}
+
+#Stella {
+  top: 64%;
+  left: 86%
+}
+
+#Virgilio {
+  top: 71%;
+  left: 71.5%
+}
+
+#Left_arrow {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 74%;
+  left: 7%;
+}
+
+#Right_arrow {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 74%;
+  left: 47.2%;
+}
+
+.container{
+  position: absolute;
+  top: 87%;
+  left: 4%;
+  display: inline-block;
+}
+
+#Texte_perso{
+  color: white;
+  font-family: "VA11HALLA6PX";
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+  typing 1.5s steps(100, end) forwards;
+  font-size: 30px;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#Lien_Jukebox {
+  text-decoration: none;
+  position: absolute;
+  top: 87.5%;
+  left: 70.2%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 36px;
+  color: rgb(180, 180, 180);
+  transition: all 1s;
+}
+
+#Lien_Jukebox:hover {
+  color: rgb(255, 0, 140);
+  transition: all 1s;
+}
+
+#Lien_BTC {
+  text-decoration: none;
+  position: absolute;
+  top: 87.5%;
+  left: 85.5%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 36px;
+  color: rgb(180, 180, 180);
+  transition: all 1s;
+}
+
+#Lien_BTC:hover {
+  color: rgb(255, 0, 140);
+  transition: all 1s;
+}

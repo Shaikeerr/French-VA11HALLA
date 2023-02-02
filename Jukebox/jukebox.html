@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Jukebox</title>
+        <link rel="stylesheet" href="jukebox.css">
+        <script src="jukebox.js"></script>
+
+	</head>
+
+    <body id="corps">
+
+        <div class="player">
+
+            <img id="music_player" src="Textures Jukebox/Music player2.png">
+            <input type="image" id=play_pause onclick="play_pause()" onmouseover="musique_hover()"" src="Textures Jukebox/playbutton.png">
+            <input type="image" id=next onclick="next(),bouton_click()" onmouseover="musique_hover()" src="Textures Jukebox/next.png">
+            <input type="image" id="previous" onclick="previous(),bouton_click()" onmouseover="musique_hover()" src="Textures Jukebox/previous.png">
+            <input type="image" id="random" onclick="random()" onmouseover="musique_hover()" src="Textures Jukebox/random.png">
+            <input type="image" id="loop" onclick="loop()" onmouseover="musique_hover()" src="Textures Jukebox/loop.png">
+            <p id="music_text"></p>
+
+        </div>
+
+        <div class="container" style="overflow: auto;">
+            <button id=1 class="boutonmusique" onclick="musique_bouton(1);highlight(1);" onmouseover="musique_hover()">Hopes and Dreams</button>
+            <button id=2 class="boutonmusique" onclick="musique_bouton(2);highlight(2)" onmouseover="musique_hover()">A Neon Glow Lights the Way</button>
+            <button id=3 class="boutonmusique" onclick="musique_bouton(3);highlight(3)" onmouseover="musique_hover()">Welcome to VA-11 HALL-A</button>
+            <button id=4 class="boutonmusique" onclick="musique_bouton(4);highlight(4)" onmouseover="musique_hover()">Every Day Is Night</button>
+            <button id=5 class="boutonmusique" onclick="musique_bouton(5);highlight(5)" onmouseover="musique_hover()">Commencing Simulation</button>
+            <button id=6 class="boutonmusique" onclick="musique_bouton(6);highlight(6)" onmouseover="musique_hover()">Drive Me Wild</button>
+            <button id=7 class="boutonmusique" onclick="musique_bouton(7);highlight(7)" onmouseover="musique_hover()">Good for Health...</button>
+            <button id=8 class="boutonmusique" onclick="musique_bouton(8);highlight(8)" onmouseover="musique_hover()">Who Was I?</button>
+            <button id=9 class="boutonmusique" onclick="musique_bouton(9);highlight(9)" onmouseover="musique_hover()">Troubling News</button>
+            <button id=10 class="boutonmusique" onclick="musique_bouton(10);highlight(10)" onmouseover="musique_hover()">A Gaze That Invited Disaster</button>
+            <button id=11 class="boutonmusique" onclick="musique_bouton(11);highlight(11)" onmouseover="musique_hover()">Friendly Conversation</button>
+            <button id=12 class="boutonmusique" onclick="musique_bouton(12);highlight(12)" onmouseover="musique_hover()">You've Got Me</button>
+            <button id=13 class="boutonmusique" onclick="musique_bouton(13);highlight(13)" onmouseover="musique_hover()">Umemoto</button>
+            <button id=14 class="boutonmusique" onclick="musique_bouton(14);highlight(14)" onmouseover="musique_hover()">JC Elton's</button>
+            <button id=15 class="boutonmusique" onclick="musique_bouton(15);highlight(15)" onmouseover="musique_hover()">All Systems, Go!</button>
+            <button id=16 class="boutonmusique" onclick="musique_bouton(16);highlight(16)" onmouseover="musique_hover()">Where Do I Go from Here?</button>
+            <button id=17 class="boutonmusique" onclick="musique_bouton(17);highlight(17)" onmouseover="musique_hover()">Everything Will Be Okay</button>
+            <button id=18 class="boutonmusique" onclick="musique_bouton(18);highlight(18)" onmouseover="musique_hover()">March of the White Knights</button>
+            <button id=19 class="boutonmusique" onclick="musique_bouton(19);highlight(19)" onmouseover="musique_hover()">A. Rene</button>
+            <button id=20 class="boutonmusique" onclick="musique_bouton(20);highlight(20)" onmouseover="musique_hover()">Safe Haven</button>
+            <button id=21 class="boutonmusique" onclick="musique_bouton(21);highlight(21)" onmouseover="musique_hover()">Neo Avatar</button>
+            <button id=22 class="boutonmusique" onclick="musique_bouton(22);highlight(22)" onmouseover="musique_hover()">Those Who Dwell in Shadows</button>
+            <button id=23 class="boutonmusique" onclick="musique_bouton(23);highlight(23)" onmouseover="musique_hover()">Nighttime Maneuvers</button>
+            <button id=24 class="boutonmusique" onclick="musique_bouton(24);highlight(24)" onmouseover="musique_hover()">Your Love Is a Drug</button>
+            <button id=25 class="boutonmusique" onclick="musique_bouton(25);highlight(25)" onmouseover="musique_hover()">Snowfall</button>
+            <button id=26 class="boutonmusique" onclick="musique_bouton(26);highlight(26)" onmouseover="musique_hover()">Last Call</button>
+            <button id=27 class="boutonmusique" onclick="musique_bouton(27);highlight(27)" onmouseover="musique_hover()">Believe in Me Who...</button>
+            <button id=28 class="boutonmusique" onclick="musique_bouton(28);highlight(28)" onmouseover="musique_hover()">Dawn Approaches</button>
+        </div>
+        
+    </body>

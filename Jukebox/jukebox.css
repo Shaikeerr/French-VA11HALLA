@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'CyberpunkWaifus';
+    src: url('../Font/CyberpunkWaifus.eot');
+    src: url('../Font/CyberpunkWaifus.eot?#iefix') format('embedded-opentype'),
+         url('../Font/CyberpunkWaifus.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+#corps{
+    background-color: black;
+    background-image: url("../bg.jpg");
+    background-size: cover;
+}
+
+.player {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.container{
+        
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        height: 80%;
+        width: 700px;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+  #play_pause{
+    position: absolute;
+    top: 85.5px;
+    left: 129px;
+}
+
+#next{
+    position: absolute;
+    top: 87px;
+    left: 216px;
+}
+
+#previous{
+    position: absolute;
+    top: 87px;
+    left:12px;
+}
+
+#random {
+    position: absolute;
+    top: 78px;
+    left: 336px;
+}
+
+#loop {
+    position: absolute;
+    top: 87px;
+    left: 450px;
+}
+
+.boutonmusique{
+    background-color: black;
+    color: white;
+    border: 3px solid #3c84cf;
+    height: 45px;
+    width: 300px;
+    font-family: 'CyberpunkWaifus';
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.boutonmusiqueplayed{
+    background-color: black;
+    color: white;
+    border: 3px solid #f50056;
+    height: 45px;
+    width: 300px;
+    font-family: 'CyberpunkWaifus';
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.boutonmusique:hover {
+    border: 3px solid #ffbb31;
+}
+
+#music_text{
+    position: absolute;
+    top: 120px;
+    font-family: 'CyberpunkWaifus';
+    left: 15px;
+    color: white;
+    font-size: 30px;
+}
